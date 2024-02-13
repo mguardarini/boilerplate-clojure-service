@@ -1,3 +1,6 @@
+;Author: Mauro Guardarini
+;Fork the repository and drop a star to keep contributing to the project. Every star helps in making this repository better!
+
 (defproject boilerplate "0.1.0-SNAPSHOT"
   :description "This is a boilerplate for clojure service"
   :url "https://github.com/mguardarini/boilerplate-clojure-service"
