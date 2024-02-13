@@ -9,10 +9,8 @@ This is a boilerplate for building a web API using Clojure. It provides a founda
 - **http-kit "2.3.0"**: An efficient, low-latency HTTP server/client library for Clojure.
 - **com.stuartsierra/dependency "1.0.0"** and **com.stuartsierra/component "1.1.0"**: Libraries for managing dependencies and building component-based systems, respectively.
 - **ring/ring-defaults "0.3.2"**: Ring middleware defaults for common settings.
-- **ring/ring-mock "0.4.0"** and **ring-mock "0.1.5"**: Libraries for mocking Ring requests and responses in tests.
 - **prismatic/schema "1.4.1"**: A library for defining data schemas and validating data.
 - **clj-http "3.12.3"**: A simple HTTP client for Clojure.
-- **state-flow-helpers/state-flow-helpers "0.1.0-XABLAW"** and **nubank/state-flow "5.14.5"**: Libraries for managing state and flow control in applications.
 
 ## Features
 
@@ -21,9 +19,7 @@ This is a boilerplate for building a web API using Clojure. It provides a founda
 - **Schema Validation**: Use Prismatic Schema to define data schemas and validate incoming requests and outgoing responses.
 - **HTTP Server**: Run your API using the efficient HTTP server provided by http-kit.
 - **Middleware**: Leverage Ring middleware for handling common tasks such as JSON parsing, exception handling, and CORS.
-- **Mocking**: Easily mock HTTP requests and responses for testing purposes using ring-mock.
 - **HTTP Client**: Interact with external APIs using the clj-http library.
-- **State Management**: Utilize state-flow libraries for managing application state and controlling flow.
 
 ## Getting Started
 
