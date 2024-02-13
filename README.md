@@ -56,6 +56,13 @@ This is a boilerplate for building a web API using Clojure. It provides a founda
 
 6. Access your API at `http://localhost:3004`.
 
+
+7. Test with curl:
+
+ ```
+  curl  http://localhost:3004/api/welcome  
+  ```
+
 ## Project Structure
 
 ```
