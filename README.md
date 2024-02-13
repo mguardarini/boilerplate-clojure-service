@@ -26,7 +26,7 @@ This is a boilerplate for building a web API using Clojure. It provides a founda
 1. Clone this repository to your local machine:
 
    ```
-   git clone https://github.com/your-username/your-api.git
+   git clone git@github.com:mguardarini/boilerplate-clojure-service.git
    ```
 2. Run the tests
    ```
@@ -45,7 +45,7 @@ This is a boilerplate for building a web API using Clojure. It provides a founda
 4. Navigate to the project directory:
 
    ```
-   cd your-api
+   cd boilerplate-clojure-service
    ```
 
 5. Start the development server:
