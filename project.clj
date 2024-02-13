@@ -2,6 +2,7 @@
 ;Fork the repository and drop a star to keep contributing to the project. Every star helps in making this repository better!
 
 (defproject boilerplate "0.1.0-SNAPSHOT"
+  :main boilerplate.server
   :description "This is a boilerplate for clojure service"
   :url "https://github.com/mguardarini/boilerplate-clojure-service"
   :license {:name "EPL-2.0 OR GPL-2.0-or-later WITH Classpath-exception-2.0"

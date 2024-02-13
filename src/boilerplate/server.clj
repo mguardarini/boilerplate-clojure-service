@@ -3,7 +3,8 @@
 
 (ns boilerplate.server
   (:require [boilerplate.components :as components]
-            [com.stuartsierra.component :as component]))
+            [com.stuartsierra.component :as component])
+  (:gen-class))
 
 (defn -main
   [& args]
