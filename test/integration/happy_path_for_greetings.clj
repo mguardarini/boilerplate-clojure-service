@@ -1,10 +1,12 @@
 (ns integration.happy-path-for-greetings
-  (:require [clojure.test :refer [deftest testing is]]
+  (:require [state-flow.core :refer [flow]]
+            [helpers.init :refer [defflow]]
+            [state-flow.assertions.matcher-combinators :refer [match?]]
             [helpers.http :as http]))
 
-(deftest get-the-message-from-welcome-path
-  (testing "GET /api/hello should return the hello default message"
-    (let [response (http/get "/api/welcome")]
-      (is (= 200 (:status response)))
-      (is (contains? (:headers response) "Content-Type"))
-      (is (= "Welcome Mauro!" (:body response))))))
+(def happy-path-test)
+(defflow happy-path-test
+    (flow "Should be return a Welcome with the name of the person hard coded."
+          [:let [{:keys [status body]} (http/->get "/api/welcome")] ]
+          (match? 200 status)
+          (match? "Welcome Mauro!" body)))

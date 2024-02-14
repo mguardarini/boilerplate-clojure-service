@@ -1,0 +1,1 @@
+["^ ","~$welcome",["^ ","~:row",7,"~:col",1,"~:fixed-arities",["~#set",[1]],"~:name","^0","~:ns","~$boilerplate.adapters.greeting","~:top-ns","^7","~:arities",["^ ","~i1",["^ ","~:ret","~:string"]]],"~:filename","/Users/mauroguardarini/dev/boilerplate-clojure-service/src/boilerplate/adapters/greeting.clj"]
