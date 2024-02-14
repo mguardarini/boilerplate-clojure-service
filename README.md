@@ -1,8 +1,8 @@
-# Web API Boilerplate
+# Web API Boilerplate 🚀
 
 This is a boilerplate for building a web API using Clojure. It provides a foundation for creating RESTful APIs with clean architecture and efficient handling of HTTP requests.
 
-## Dependencies
+## Dependencies  💅
 
 - **org.clojure/clojure "1.10.3"**: The core Clojure library.
 - **compojure "1.6.1"**: A concise routing library for Ring/Clojure.
@@ -12,7 +12,7 @@ This is a boilerplate for building a web API using Clojure. It provides a founda
 - **prismatic/schema "1.4.1"**: A library for defining data schemas and validating data.
 - **clj-http "3.12.3"**: A simple HTTP client for Clojure.
 
-## Features
+## Features  💅
 
 - **Routing with Compojure**: Define routes using Compojure's concise syntax.
 - **Component-Based Architecture**: Organize your application into modular components for better maintainability and testability.
@@ -21,7 +21,7 @@ This is a boilerplate for building a web API using Clojure. It provides a founda
 - **Middleware**: Leverage Ring middleware for handling common tasks such as JSON parsing, exception handling, and CORS.
 - **HTTP Client**: Interact with external APIs using the clj-http library.
 
-## Getting Started
+## Getting Started 🥇
 
 1. Clone this repository to your local machine:
 
