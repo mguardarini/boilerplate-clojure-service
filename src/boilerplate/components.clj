@@ -8,6 +8,11 @@
             [boilerplate.config :as config]
             [boilerplate.routes :as routes]))
 
+(def system-started? (atom false))
+
+(defn toggle-status []
+  (swap! system-started? not))
+
 (def base
   {::component/system
    (component/system-map
@@ -15,5 +20,7 @@
      :http-server (http-server/create config/port routes/app-routes)
      :greeting    (greeting/create "Hello"))})
 
-(defn start []
-  (component/start base))
+(defn start-system! []
+  (when (= @system-started? false)
+    (component/start-system base)
+    (toggle-status)))

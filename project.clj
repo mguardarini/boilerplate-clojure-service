@@ -14,6 +14,7 @@
                  [com.stuartsierra/component "1.1.0"]
                  [ring/ring-defaults "0.3.2"]
                  [prismatic/schema "1.4.1"]
+                 [nubank/state-flow "5.14.5"]
                  [clj-http "3.12.3"]
                  [nubank/state-flow "5.14.5"]]
   :resource-paths ["resources"]

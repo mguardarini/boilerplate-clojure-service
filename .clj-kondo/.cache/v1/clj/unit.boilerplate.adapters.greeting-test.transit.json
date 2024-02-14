@@ -1,0 +1,1 @@
+["^ ","~$wire->internal-test",["^ ","~:row",6,"~:col",1,"~:fixed-arities",["~#set",[0]],"~:name","^0","~:ns","~$unit.boilerplate.adapters.greeting-test","~:top-ns","^7"],"~:filename","/Users/mauroguardarini/dev/boilerplate-clojure-service/test/unit/boilerplate/adapters/greeting_test.clj"]

@@ -8,7 +8,7 @@
 
 (defn -main
   [& args]
-  (let [system (components/start)]
+  (let [system (components/start-system!)]
     (println "Server started on port 3004.")
     (component/start (-> system ::component/system :http-server))))
 
