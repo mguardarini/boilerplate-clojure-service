@@ -1,10 +1,10 @@
 ;Author: Mauro Guardarini
 ;Fork the repository and drop a star to keep contributing to the project. Every star helps in making this repository better!
 
-(ns boilerplate.components.greeting
+(ns boilerplate.components.dummy
   (:require [com.stuartsierra.component :as component]))
 
-(defrecord greeting [text]
+(defrecord dummy [text]
   component/Lifecycle
   (start [component]
     (let [greeting text]
@@ -17,4 +17,4 @@
     (dissoc component :greeting)))
 
 (defn create [text]
-  (->greeting text))
+  (->dummy text))

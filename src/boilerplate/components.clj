@@ -4,7 +4,7 @@
 (ns boilerplate.components
   (:require [com.stuartsierra.component :as component]
             [boilerplate.components.http-server :as http-server]
-            [boilerplate.components.greeting :as greeting]
+            [boilerplate.components.dummy :as dummy]
             [boilerplate.config :as config]
             [boilerplate.routes :as routes]))
 
@@ -18,7 +18,7 @@
    (component/system-map
      ;TODO add another components here
      :http-server (http-server/create config/port routes/app-routes)
-     :greeting    (greeting/create "Hello"))})
+     :dummy (dummy/create "Hello"))})
 
 (defn start-system! []
   (when (= @system-started? false)
